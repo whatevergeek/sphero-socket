@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hour of Code</title>
+  <link rel="stylesheet" href="./lib/bootstrap.3.3.6.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./lib/font-awesome.4.5.0.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>Robot Controls</h1>
+  </header>
+
+  <main>
+    <section class="desc">
+      <h2>Click the buttons below to control the robot </h2>
+    </section>
+
+    <section class="controls" >
+      <div id="control-panel">
+        <div class="button"></div>
+        <div class="button control" id="forward">
+          <i class="fa fa-arrow-circle-o-up fa-3x"></i>
+        </div>
+        <div class="button"></div>
+
+        <div class="button control" id="left">
+          <i class="fa fa-arrow-circle-o-left fa-3x"></i>
+        </div>
+        <div class="button control" id="stop">
+          <i class="fa fa-stop-circle fa-3x"></i>
+        </div>
+        <div class="button control" id="right">
+          <i class="fa fa-arrow-circle-o-right fa-3x"></i>
+        </div>
+
+        <div class="button"></div>
+        <div class="button control" id="backward">
+          <i class="fa fa-arrow-circle-o-down fa-3x"></i>
+        </div>
+        <div class="button"></div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="./lib/jquery.2.1.4.min.js"></script>
+  <script src="./lib/bootstrap.3.3.6.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

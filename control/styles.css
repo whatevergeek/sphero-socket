@@ -1,0 +1,144 @@
+/* mclaren-regular - latin */
+@font-face {
+  font-family: 'McLaren';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/mclaren-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('McLaren'), local('McLaren-Regular'),
+       url('./fonts/mclaren-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/mclaren-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/mclaren-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/mclaren-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/mclaren-v4-latin-regular.svg#McLaren') format('svg'); /* Legacy iOS */
+}
+
+/* CSS reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, main, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom css */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-family: "McLaren", "Comic Sans MS", cursive;
+  font-size: 18px;
+  background-color: #82CACD;
+  color: #205D76;
+  text-align: center;
+}
+
+header {
+  height: 15%;
+  padding-top: 20px;
+}
+
+main {
+  height: 85%;
+}
+
+h1, h2 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+section.desc {
+  height: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+section.controls {
+  height: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+div#control-panel {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  height: 30%;
+  width: 32%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.control {
+  border: solid #205D76 2px;
+  background-color: #FFAAA8;
+  color: #205D76;
+}
+
+.control:hover {
+  background-color: #ED7AF4
+}
+
+.control:active {
+  background-color: #F43A1A
+}
+
+.button i {
+  margin:5%;
+}
+
