@@ -1,10 +1,11 @@
 var socket = io();
 
-var forwardRsrc = "forward",
-  backwardRsrc = "backward",
-  leftRsrc = "left",
-  rightRsrc = "right",
-  stopRsrc = "stop";
+var URL = "http://localhost:3001/cmd?action=",
+  forwardRsrc = URL + "forward",
+  backwardRsrc = URL + "backward",
+  leftRsrc = URL + "left",
+  rightRsrc = URL + "right",
+  stopRsrc = URL + "stop";
   calibStartRsrc = "calib_start";
   calibEndRsrc = "calib_end";
 
